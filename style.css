@@ -1,0 +1,47 @@
+body {
+	background: url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/pw_maze_black.png');
+	font-family: helvetica, sans-serif;
+}
+
+canvas {
+	background: black;
+}
+
+.wrapper {
+	width: 1020px;
+	margin: auto;
+	border: 7px solid #333;
+	height: 350px;
+	background: black;
+}
+.info-box {
+	width: 189px;
+	float: right;
+	padding: 10px;
+	height: 330px;
+	color: white;
+	font-size: 12px;
+	line-height: 150%;
+	background: black;
+	border-left: 7px solid #333;
+}
+.button {
+	display: block;
+	background: #17a617;
+	color: white;
+	padding: 25px;
+	text-align: center;
+	text-decoration: none;
+	box-shadow: 12px 12px 0 rgba(0,0,0,0.16) inset, -12px -12px 0 rgba(0,0,0,0.16) inset;
+	-moz-transition: all 0.5s;
+	-webkit-transition: 0.5s all;
+	transition: 0.5s all;
+}
+.button:hover {
+	box-shadow: 0 0 0 rgba(0,0,0,0.16) inset;
+}
+h2 {
+	font-size: 16px;
+	margin: 0;
+	padding: 20px 0 0;
+}
